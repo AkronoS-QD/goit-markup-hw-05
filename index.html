@@ -65,19 +65,10 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <!-- кнопка модалки -->
         <button data-modal-open type="button" class="button-primary cursors">
           Заказать услугу
         </button>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button data-modal-close class="modal-close">
-              <svg class="icon">
-                <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
+
         <!-- кнопка модалки закончилась -->
       </section>
       <!-- main goal -->
@@ -411,7 +402,7 @@
         </div>
       </section>
     </main>
-    <!-- Page footer-->
+    <!--------------------------------------Page footer------------------------------------>
     <footer class="info">
       <div class="container footer-container">
         <div class="address-info">
@@ -471,6 +462,16 @@
         </div>
       </div>
     </footer>
+    <!------------------------------------------Модалка------------------------------>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="modal-close">
+          <svg class="icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./modal.js"></script>
   </body>
 </html>
